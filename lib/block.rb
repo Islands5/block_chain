@@ -1,5 +1,4 @@
 require 'digest/sha2'
-require 'json'
 
 class Block
   attr_reader :index, :previous_hash, :timestamp, :data, :hash
